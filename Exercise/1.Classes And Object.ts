@@ -1,3 +1,4 @@
+// Exercise 1: Bank Account
 class BankAccount {
     // Add private fields: accountNumber (string), ownerName (string), balance (number)
     private accountNumber:string;
@@ -49,3 +50,4 @@ console.log(account.getBalance().toFixed(1));  // Should print 500.0
 
 success = account.withdraw(1000);
 console.log(success);                          // Should print false
+
